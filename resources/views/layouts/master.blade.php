@@ -11,8 +11,8 @@
     <title>@yield('title', 'EV PLUS')</title>
 
     {{-- Favicon --}}
-    <link rel="shortcut icon" href="{{ asset('assets/images/logo/logo.jpg') }}">
-    <link rel="apple-touch-icon" href="{{ asset('assets/images/logo/logo.jpg') }}">
+    <link rel="shortcut icon" href="{{ asset('assets/images/logo/logo.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('assets/images/logo/logo.png') }}">
 
     {{-- Main CSS --}}
     <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.css') }}">

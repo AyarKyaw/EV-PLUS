@@ -8,9 +8,9 @@
                                 <div class="logo">
                                     <a href="/">
                                         <img class="lazyload img-none" data-src="assets/images/logo/logo@2x.png"
-                                            src="assets/images/logo/logo%402x.png" alt="" width="164" height="32">
+                                            src="{{ asset('assets/images/logo/logo.png') }}" alt="" width="164" height="32">
                                         <img class="lazyload img-is-fixed" data-src="assets/images/logo/logo@2x.png"
-                                            src="assets/images/logo/logo%402x.png" alt="" width="164" height="32">
+                                            src="{{ asset('assets/images/logo/logo.png') }}" alt="" width="164" height="32">
                                     </a>
                                 </div>
                             </div>
@@ -19,26 +19,17 @@
                                 <nav class="main-menu show navbar-expand-md">
                                     <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
                                         <ul class="navigation clearfix">
-                                            <li class="dropdown2 ">
-                                                <a href="#">Home</a>
-                                                <ul>
-                                                    <li><a href="/">Home Page 01</a></li>
-                                                    <li><a href="home02.html">Home Page 02</a></li>
-                                                    <li><a href="home03.html">Home Page 03</a></li>
-                                                    <li><a href="home04.html">Home Page 04</a></li>
-                                                    <li><a href="home05.html">Home Page 05</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="dropdown2 tfcl-mega-menu">
+                                            <li><a href="/">Home</a></li>
+                                            <!-- <li class="dropdown2 tfcl-mega-menu">
                                                 <a href="#">Listing Car</a>
                                                 <ul>
                                                     <li class="dropdown2">
                                                         <a href="#">Listing </a>
                                                         <ul>
                                                             <li>
-                                                                <a href="listing-list.html">Listing list</a>
-                                                            </li>
-                                                            <li>
+                                                                <a href="/listing">Listing list</a>
+                                                            </li> -->
+                                                            <!-- <li>
                                                                 <a href="listing-grid.html">Listing grid V1</a>
                                                             </li>
                                                             <li>
@@ -51,18 +42,18 @@
                                                             <li>
                                                                 <a href="listing-list-map.html">Listing map
                                                                     V2</a>
-                                                            </li>
-                                                        </ul>
+                                                            </li> -->
+                                                        <!-- </ul>
                                                     </li>
 
                                                     <li class="dropdown2">
                                                         <a href="#">Listing detail</a>
                                                         <ul>
                                                             <li>
-                                                                <a href="listing-detail-v1.html">Listing detail
+                                                                <a href="/details">Listing detail
                                                                     V1</a>
-                                                            </li>
-                                                            <li>
+                                                            </li> -->
+                                                            <!-- <li>
                                                                 <a href="listing-detail-v2.html">Listing detail
                                                                     V2</a>
                                                             </li>
@@ -81,8 +72,8 @@
                                                             <li>
                                                                 <a href="listing-detail-v6.html">Listing detail
                                                                     V6</a>
-                                                            </li>
-                                                        </ul>
+                                                            </li> -->
+                                                        <!-- </ul>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -90,8 +81,8 @@
                                                 <a href="#">Page</a>
                                                 <ul>
                                                     <li class="current"><a href="/about">About Us</a>
-                                                    </li>
-                                                    <li><a href="faq.html">Faq's</a></li>
+                                                    </li> -->
+                                                    <!-- <li><a href="faq.html">Faq's</a></li>
                                                     <li><a href="pricing.html">Pricing</a></li>
                                                     <li><a href="compare.html">Compare</a></li>
 
@@ -112,8 +103,8 @@
                                                             </li>
                                                             <li>
                                                                 <a href="dealer-detail.html">Dealer detail</a>
-                                                            </li>
-                                                        </ul>
+                                                            </li> -->
+                                                        <!-- </ul>
                                                     </li>
                                                     <li class="dropdown2">
                                                         <a href="#">Agents</a>
@@ -127,34 +118,28 @@
                                                             </li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="dashboard.html">Dashboard</a></li>
+                                                    <li><a href="dashboard.html">Dashboard</a></li> -->
                                                 </ul>
                                             </li>
-                                            <li class="dropdown2">
+                                            <!-- <li class="dropdown2">
                                                 <a href="#">Blog</a>
                                                 <ul>
                                                     <li>
-                                                        <a href="blog.html">Blog List</a>
+                                                        <a href="/blog">Blog</a>
                                                     </li>
                                                     <li><a href="blog-grid.html">Blog Grid</a></li>
                                                     <li>
                                                         <a href="blog-detail.html">Blog Detail</a>
                                                     </li>
                                                 </ul>
-                                            </li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                            </li> -->
+                                            <!-- <li><a href="/contact">Contact</a></li> -->
                                         </ul>
                                     </div>
                                 </nav>
                                 <!-- Main Menu End-->
                             </div>
                             <div class="header-account flex align-center">
-                                <div class="search-mobie">
-                                    <a href="#" class="header-search-icon flex items-center justify-center">
-                                        <i class="icon-carus-search search-icon fs-20"></i>
-                                    </a>
-                                </div>
-
                                 <div class="register">
     <ul class="flex align-center">
 
@@ -207,11 +192,6 @@
 
     </ul>
 </div>
-                                <div class="flat-bt-top">
-                                    <a class="sc-button" href="add-listing.html">
-                                        <span>Sell my car</span>
-                                    </a>
-                                </div>
                             </div>
 
                             <div class="mobile-nav-toggler mobile-button">
@@ -238,7 +218,7 @@
                                 <div class="content">
                                     <p class="fs-12 fw-4">Your account</p>
                                     <p class="name">
-                                        Autriva <i class="fal fa-angle-down"></i>
+                                        EV PLUS <i class="fal fa-angle-down"></i>
                                     </p>
                                 </div>
                             </a>
@@ -309,7 +289,7 @@
                                         <div class="content">
                                             <p class="fs-14 fw-4">Email us:</p>
                                             <div class="sub fs-18 fw-6">
-                                                <a href="mailto:autriva@support.com">autriva@support.com</a>
+                                                <a href="mailto:EV PLUS@support.com">EV PLUS@support.com</a>
                                             </div>
                                         </div>
                                     </div>

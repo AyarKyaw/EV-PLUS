@@ -4,12 +4,12 @@
           <div class="footer-main">
             <div class="widget widget-menu footer-col-block">
               <div class="footer-heading-desktop">
-                <h3>About EV PLUS</h3>
+                <!-- <h3>About EV PLUS</h3> -->
               </div>
               <div class="footer-heading-mobie">
-                <h3>About EV PLUS</h3>
+                <!-- <h3>About EV PLUS</h3> -->
               </div>
-              <ul class="box-menu tf-collapse-content">
+              <!-- <ul class="box-menu tf-collapse-content">
                 <li><a href="about-us.html">About us</a></li>
                 <li><a href="about-us.html">Careers With Us</a></li>
                 <li><a href="about-us.html">Terms & Conditions</a></li>
@@ -17,10 +17,10 @@
                 <li><a href="about-us.html">Corporate Policies</a></li>
                 <li><a href="about-us.html">Investors</a></li>
                 <li><a href="faq.html">FAQs</a></li>
-              </ul>
+              </ul> -->
             </div>
 
-            <div class="widget widget-menu footer-col-block">
+            <!-- <div class="widget widget-menu footer-col-block">
               <div class="footer-heading-desktop">
                 <h3>Search & Explore</h3>
               </div>
@@ -28,13 +28,13 @@
                 <h3>Search & Explore</h3>
               </div>
               <ul class="box-menu tf-collapse-content">
-                <li><a href="listing-list.html">New cars</a></li>
-                <li><a href="listing-list.html">Used cars</a></li>
-                <li><a href="listing-list.html">Upcoming car</a></li>
-                <li><a href="listing-list.html">Cars for you</a></li>
-                <li><a href="listing-list.html">Recently Listed Cars</a></li>
-                <li><a href="listing-list.html">Accessory car</a></li>
-                <li><a href="listing-list.html">Car Dealers</a></li>
+                <li><a href="/listing">New cars</a></li>
+                <li><a href="/listing">Used cars</a></li>
+                <li><a href="/listing">Upcoming car</a></li>
+                <li><a href="/listing">Cars for you</a></li>
+                <li><a href="/listing">Recently Listed Cars</a></li>
+                <li><a href="/listing">Accessory car</a></li>
+                <li><a href="/listing">Car Dealers</a></li>
               </ul>
             </div>
 
@@ -46,21 +46,21 @@
                 <h3>Car by body</h3>
               </div>
               <ul class="box-menu tf-collapse-content">
-                <li><a href="listing-list.html">Sedan</a></li>
-                <li><a href="listing-list.html">Hatchback</a></li>
-                <li><a href="listing-list.html">SUV</a></li>
-                <li><a href="listing-list.html">Crossover</a></li>
-                <li><a href="listing-list.html">Coupe</a></li>
-                <li><a href="listing-list.html">Pickup Truck</a></li>
-                <li><a href="listing-list.html">Wagon</a></li>
+                <li><a href="/listing">Sedan</a></li>
+                <li><a href="/listing">Hatchback</a></li>
+                <li><a href="/listing">SUV</a></li>
+                <li><a href="/listing">Crossover</a></li>
+                <li><a href="/listing">Coupe</a></li>
+                <li><a href="/listing">Pickup Truck</a></li>
+                <li><a href="/listing">Wagon</a></li>
               </ul>
-            </div>
+            </div> -->
 
             <div class="widget widget-menu footer-col-block">
-              <div class="footer-heading-desktop">
+              <!-- <div class="footer-heading-desktop">
                 <h3>Car by brands</h3>
-              </div>
-              <div class="footer-heading-mobie">
+              </div> -->
+              <!-- <div class="footer-heading-mobie">
                 <h3>Car by brands</h3>
               </div>
               <div class="tf-collapse-content">
@@ -94,19 +94,19 @@
                   <span>Explore all Brand</span>
                   <i class="icon-carus-arright"></i>
                 </a>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="footer-information flex-two gap-30 flex-wrap">
             <div class="footer-image">
               <a href="index.html">
                 <img class="lazyload" data-src="assets/images/logo/logo-footer@2x.png"
-                  src="assets/images/logo/logo.jpg" alt="img" width="164" height="32" />
+                  src="{{ asset('assets/images/logo/logo.png') }}" alt="img" width="164" height="32" />
               </a>
             </div>
             <div class="information flex-two flex-wrap">
               <div class="icon-box-footer flex-three">
-                <div class="icon">
+                <!-- <div class="icon">
                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M25.7993 18.448C24.9993 17.6487 23.6043 17.6487 22.8036 18.448L21.5013 19.7507C20.625 20.6274 19.079 20.6274 18.2027 19.7507L12.2467 13.795C11.8063 13.355 11.5637 12.7687 11.5637 12.1454C11.5637 11.524 11.8063 10.9377 12.2467 10.4977L13.5497 9.19503C14.3757 8.36936 14.3757 7.02436 13.5497 6.1987L9.30098 1.94936C9.30065 1.94936 9.30032 1.94936 9.29998 1.9477C8.47432 1.12736 7.13165 1.1257 6.30565 1.94936L3.78798 4.4687C2.20532 6.05103 1.33398 8.15303 1.33398 10.3904C1.33398 12.6297 2.20532 14.7317 3.78765 16.3144L15.6833 28.2097C17.2657 29.7924 19.3693 30.6637 21.607 30.6637C23.8447 30.6637 25.9487 29.7924 27.5307 28.2097L30.0487 25.6924C30.874 24.8667 30.874 23.5234 30.0487 22.6977L25.7993 18.448ZM7.57898 3.2257C7.64065 3.16403 7.72165 3.13236 7.80265 3.13236C7.88398 3.13236 7.96498 3.16403 8.02665 3.2257L12.275 7.4737C12.3983 7.59703 12.3983 7.7977 12.275 7.9207L10.972 9.22336C10.893 9.30236 10.82 9.38536 10.7483 9.46936L6.04198 4.7627L7.57898 3.2257ZM16.958 26.935L5.06198 15.0397C3.82032 13.7987 3.13665 12.1474 3.13665 10.3904C3.13665 8.77536 3.72165 7.25236 4.78198 6.0517L9.88498 11.1547C9.80632 11.4757 9.76098 11.8067 9.76098 12.1454C9.76098 13.251 10.1913 14.2897 10.9723 15.0694L16.9273 21.0254C17.9407 22.038 19.4513 22.3887 20.8127 22.0837L25.9447 27.2144C23.4243 29.4084 19.3427 29.3214 16.958 26.935ZM28.7737 24.4177L27.235 25.956L22.5273 21.249C22.6123 21.1777 22.6967 21.105 22.7763 21.0254L24.0783 19.7227C24.1833 19.617 24.4197 19.617 24.5243 19.7227L28.7733 23.9724C28.8963 24.0954 28.8963 24.2944 28.7737 24.4177Z"
@@ -121,8 +121,8 @@
                       d="M20.6318 9.46282H25.7925C26.2901 9.46282 26.6938 9.05982 26.6938 8.56149C26.6938 8.06316 26.2901 7.66016 25.7925 7.66016H20.6318C20.1338 7.66016 19.7305 8.06316 19.7305 8.56149C19.7305 9.05982 20.1341 9.46282 20.6318 9.46282Z"
                       fill="#405FF2" />
                   </svg>
-                </div>
-                <div class="content">
+                </div> -->
+                <!-- <div class="content">
                   <p class="fs-14 fw-4">Phone:</p>
                   <div class="sub fs-14 fw-4">(239) 555-0108</div>
                 </div>
@@ -213,25 +213,25 @@
                     <a class="fs-14 fw-4 sub" href="https://maps.app.goo.gl/rys3yHV6o3nkfQQc8">1901 Thornridge Cir.
                       Shiloh, Hawaii 81063</a>
 
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
-            <div class="icon-social box-3 text-color-1">
+            <!-- <div class="icon-social box-3 text-color-1">
               <a href="https://www.facebook.com/"><i class="icon-carus-facebook"></i></a>
               <a href="https://www.linkedin.com/"><i class="icon-carus-in"></i></a>
               <a href="https://www.x.com/"><i class="icon-carus-x"></i></a>
               <a href="https://www.instagram.com/"><i class="icon-carus-instagram"></i></a>
               <a href="https://www.youtube.com/"><i class="icon-carus-youtube"></i></a>
-            </div>
+            </div> -->
           </div>
           <div class="footer-bottom">
             <div class="row">
               <div class="col-lg-3 col-md-12">
-                <ul class="menu-footer-bottom flex-three flex-wrap">
+                <!-- <ul class="menu-footer-bottom flex-three flex-wrap">
                   <li><a class="fs-14 fw-4" href="dealer-listing.html">Sell my car</a></li>
-                  <li><a class="fs-14 fw-4" href="contact.html">Contact us</a></li>
-                </ul>
+                  <li><a class="fs-14 fw-4" href="/contact">Contact us</a></li>
+                </ul> -->
               </div>
               <div class="col-lg-6 col-md-12">
                 <p class="coppyright center fs-14 fw-4">
@@ -275,7 +275,7 @@
           <div class="wrap-modal flex">
             <div class="content">
               <a href="index.html" class="logo-image">
-                <img class="lazyload" data-src="assets/images/logo/logo@2x.png" src="assets/images/logo/logo.jpg"
+                <img class="lazyload" data-src="assets/images/logo/logo@2x.png" src="assets/images/logo/logo.png"
                   alt="img" width="164" height="32" />
               </a>
               <div class="header-form">
@@ -288,34 +288,48 @@
 
               <div class="comments">
                 <div class="respond-comment">
-                  <form class="comment-form form-submit" action="{{ route('login') }}"
-                    method="POST">
-                    @csrf
-                    <fieldset class="">
-                      <label class="fw-5">Your name</label>
-                      <input type="text" id="text" class="tb-my-input" name="text" placeholder="e.g john doe" />
-                    </fieldset>
-                    <fieldset class="style-wrap">
-                      <label class="fw-5">Password</label>
-                      <input type="password" class="input-form password-input" placeholder="Your password" />
-                    </fieldset>
-                    <div class="flex-two flex-wrap gap-30 remember-me">
-                      <!-- <label class="flex-three fw-6 mb-0">
-                        <input name="newsletter" type="checkbox" />
-                        <span class="btn-checkbox"></span>
-                        <span class="text-p font-2">Remember me</span>
-                      </label> -->
-                      <div class="title-forgot">
-                        <a class="text-p" data-bs-toggle="modal" data-bs-target="#popup_bid3"
-                          data-bs-dismiss="modal">Forgot password?</a>
-                      </div>
-                    </div>
+                  <form class="comment-form form-submit"
+                        action="{{ route('login') }}"
+                        method="POST">
+                      @csrf
 
-                    <button class="sc-button" type="submit">
-                      <span>Login</span>
-                    </button>
+                      <fieldset>
+                          <label class="fw-5">Email</label>
+                          <input type="email"
+                                id="email"
+                                class="tb-my-input"
+                                name="email"
+                                value="{{ old('email') }}"
+                                placeholder="e.g. john@example.com"
+                                required />
+                      </fieldset>
+
+                      <fieldset class="style-wrap">
+                          <label class="fw-5">Password</label>
+                          <input type="password"
+                                id="password"
+                                class="input-form password-input"
+                                name="password"
+                                placeholder="Your password"
+                                required />
+                      </fieldset>
+
+                      <div class="flex-two flex-wrap gap-30 remember-me">
+                          <div class="title-forgot">
+                              <a class="text-p"
+                                data-bs-toggle="modal"
+                                data-bs-target="#popup_bid3"
+                                data-bs-dismiss="modal">
+                                  Forgot password?
+                              </a>
+                          </div>
+                      </div>
+
+                      <button class="sc-button" type="submit">
+                          <span>Login</span>
+                      </button>
                   </form>
-                </div>
+              </div>
               </div>
               <div class="text-box fs-16">
                 Don’t you have an account?
@@ -383,7 +397,7 @@
           <div class="wrap-modal flex">
             <div class="content">
               <a href="index.html" class="logo-image">
-                <img class="lazyload" data-src="assets/images/logo/logo@2x.png" src="assets/images/logo/logo.jpg"
+                <img class="lazyload" data-src="assets/images/logo/logo@2x.png" src="assets/images/logo/logo.png"
                   alt="img" width="164" height="32" />
               </a>
               <div class="header-form">
@@ -529,7 +543,7 @@
           <div class="wrap-modal flex">
             <div class="content">
               <a href="index.html" class="logo-image">
-                <img class="lazyload" data-src="assets/images/logo/logo@2x.png" src="assets/images/logo/logo.jpg"
+                <img class="lazyload" data-src="assets/images/logo/logo@2x.png" src="assets/images/logo/logo.png"
                   alt="img" width="164" height="32" />
               </a>
               <div class="header-form">
